@@ -1,5 +1,5 @@
 #prendo i dati di input , e nel caso in cui venisse identificato un colpo
-#il colpo viene sostituito da campioni nulli, il filtro è a solo scopo dimostrativo
+#il colpo viene sostituito da campioni nulli, il filtro e'a solo scopo dimostrativo
 #non viene usato
 
 import pyaudio
