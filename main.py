@@ -6,8 +6,7 @@
 ###### TO DO #################
 ##############################
 
-#-agoritmo sbagliato per la scelta del trigger level molto probabilmente
-#migliorare l'algoritmo nullo per valori negativi
+# -testare
 
 
 ##############################
@@ -120,10 +119,6 @@ def callback(in_data, frame_count, time_info, flag): #funzione usata per process
         
         
 #    else:
-#       a = [1]
-#       b = firwin(129, f1, pass_zero=False)
-        #filtered= lfilter(b, a, signal) #segnale filtrao in bytes
-#        filtered=signal
     #print("il livello di trigger vale %s,valore attuale %s"%(trigger_level,max(abs(x) for x in filtered)))
 #    output = float_to_bytes(filtered) #segnale filtrato convertito da bytes to float
     output = float_to_bytes(signal)    
