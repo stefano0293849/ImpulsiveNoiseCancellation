@@ -21,8 +21,8 @@ plot (yfv-yfl); %mostriamo il segnale che viene usato per il trigger per studiar
 figure;
 
 %meccanismo di trigger: quando il segnale del filtro veloce supera quello
-%del filtro lento di "abbastanza" vuol dire che c'è un rumore da togliere
-%A questo punto dobbiamo riconoscere l'attimo di fine filtraggio che è
+%del filtro lento di "abbastanza" vuol dire che c'Ã¨ un rumore da togliere
+%A questo punto dobbiamo riconoscere l'attimo di fine filtraggio che Ã¨
 %quando il segnale veloce rimane sotto una certa soglia in confronto a
 %quello lento per "abbastanza" tempo
 stato = 0;
@@ -60,7 +60,7 @@ for i = 1:length(fini)
 lx1 = fini(i)-inizi(i)+3500; %3500 e 1500 dopo vengono messi come prototipi per anticipare /posticipare il "periodo di buco"
 iniziocolpo=inizi(i);
 inizio= iniziocolpo-gwin-1500;
-ye= y(inizio:inizio+lx1+gwin); %ye contiene una prima parte di suono "buono" e il resto è rumore usiamo la prima parte per addestrare la LPC sullo spettro di frequenze originali
+ye= y(inizio:inizio+lx1+gwin); %ye contiene una prima parte di suono "buono" e il resto Ã¨ rumore usiamo la prima parte per addestrare la LPC sullo spettro di frequenze originali
 a = lpc(ye(1:gwin),flen);
 ee = filter(a,1,ye); %LPC inverso (applico filtro inverso). In questo i buchi possono venir riempiti con del rumore bianco 
 sg=sqrt(mean(ee(1:gwin).^2)); %calcolo dell'ampiezza del rumore (RMS) 
