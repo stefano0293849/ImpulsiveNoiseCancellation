@@ -1,5 +1,5 @@
 %simulate this program after had simulated the simulink model
-%after had commented the red block
+%after had commented the red and blue blocks
 
 
 %first solution with cubic interpolation(bad)
