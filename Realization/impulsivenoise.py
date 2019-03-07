@@ -21,9 +21,9 @@
 
 
 #dependency
-#if pip install pyaudio doesn't work, do in the following way:
+#if pip install pyaudio doesn't work, do in the following way to install them from the cmd:
 #download pyaudio from https://www.lfd.uci.edu/~gohlke/pythonlibs/ and then in the cmd use "pip install PyAudio-0.2.11-cp37-cp37m-win_amd64.whl"
-#pip install numpy
+#"pip install numpy"
 import wave
 import pyaudio
 import time
