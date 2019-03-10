@@ -2,23 +2,6 @@
 # -*- coding: utf-8 -*-
 
 
-##############################
-###### TESTED SETTINGS  ######
-##############################
-
-#RATE = 8000
-#CHUNK=4096
-#FORMAT = pyaudio.paFloat32
-#INFO: buono, avendo un grande chunk ho però maggiore ritardo del suono, per ora è il migliore
-
-
-#RATE = 44100
-#CHUNK=1024
-#FORMAT = pyaudio.paInt16
-#INFO: buono
-#channel=1
-
-
 
 #dependency
 #if pip install pyaudio doesn't work, do in the following way to install them from the cmd:
